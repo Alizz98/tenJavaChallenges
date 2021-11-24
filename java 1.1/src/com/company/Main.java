@@ -12,7 +12,6 @@
  if they need a clue, or a solution, or if they want to move on to the next challenge, or if they want to stop the program.
  The process continues until the user enters a value of -1 or an invalid value.
  *******************************************************************************/
-
 package com.company;
 import java.util.Scanner;
 import java.util.Random;
@@ -214,13 +213,13 @@ public class Main
                     }// while loop
 
                 }else{
-                    System.out.print("Please enter a valid number 1 to 10 ");
+                    System.out.print("Please enter a valid number 1 or 0 ");
                     System.exit(0);
                 }// write here
 
 
             }else{ // first if
-                System.out.print("Please enter a valid number 1 to 10");
+                System.out.print("Please enter a valid number 1 or 0");
             }
 
         }else{
