@@ -1,19 +1,18 @@
 
-/******************************************************************************
+   
 
+/******************************************************************************
  Author: Ismail Ali
  Date: 11/11/2021
-
  This code includes ten programming problems. The challenges questions are from Tim Buchalka, an Udemy instructor who teaches the Java Programming Masterclass course.
  It's a fantastic approach to hone your coding abilities by writing methods. This set of ten questions is all about developing methods.
  I hope you like it, and have fun! There's always room for improvements. If you have any recommendations, please do not hesitate to share them with us.
-
  This program allows the user to select a challenge at random or on their own. If the user makes their own decision.
  The list of challenges will be presented in the program. When a user selects a challenge, it will provide additional information as well as four possibilities.
  if they need a clue, or a solution, or if they want to move on to the next challenge, or if they want to stop the program.
  The process continues until the user enters a value of -1 or an invalid value.
-
  *******************************************************************************/
+
 package com.company;
 import java.util.Scanner;
 import java.util.Random;
@@ -70,6 +69,7 @@ public class Main
                         System.exit(0);
                     }
                 }
+           
 
                 int count = 0;
                 int mychar;
@@ -214,13 +214,13 @@ public class Main
                     }// while loop
 
                 }else{
-                    System.out.print("Please enter a valid number 1  to 10 ");
+                    System.out.print("Please enter a valid number 1 to 10 ");
                     System.exit(0);
                 }// write here
 
 
             }else{ // first if
-                System.out.print("The program has end");
+                System.out.print("Please enter a valid number 1 to 10");
             }
 
         }else{
@@ -790,6 +790,4 @@ public class Main
 
     }
 }
-
-
 
